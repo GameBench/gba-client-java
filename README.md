@@ -2,19 +2,19 @@
 
 Please note this will only work with GBA version v1.5.0 or greater.
 
-### Installation
+## Installation
 
-#### Requirements
+### Requirements
 
 * Java 1.8 or later
 
-#### Gradle users
+### Gradle users
 
 ```
 implementation "com.gamebench:gba-client-java:0.1.0"
 ```
 
-### Usage
+## Usage
 
 GbaClientExample.java
 
