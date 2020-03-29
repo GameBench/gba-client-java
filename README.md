@@ -8,9 +8,29 @@ Please note this will only work with GBA version v1.5.0 or greater.
 
 * Java 1.8 or later
 
-### Other
+### Gradle users
 
-Please download JAR from releases
+```
+plugins {
+    id 'maven'
+}
+
+repositories {
+    maven {
+        name = "GitHubPackages"
+        url = uri("https://maven.pkg.github.com/gamebench/gba-client-java")
+        credentials {
+            username = System.getenv("USERNAME")
+            password = System.getenv("TOKEN")
+        }
+    }
+    jcenter()
+}
+
+dependencies {
+    implementation "com.gamebench:gba-client-java:0.1.0"
+}
+```
 
 ## Usage
 
