@@ -8,11 +8,9 @@ Please note this will only work with GBA version v1.5.0 or greater.
 
 * Java 1.8 or later
 
-### Gradle users
+### Other
 
-```
-implementation "com.gamebench:gba-client-java:0.1.0"
-```
+Please download JAR from releases
 
 ## Usage
 
